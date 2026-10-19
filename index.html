@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экология Бекабада — Проблема мусора</title>
+    <style>
+        /* Основные стили оформления */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        /* Шапка сайта */
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Блок с авторами */
+        .authors {
+            background-color: #1b5e20;
+            color: #e8f5e9;
+            text-align: center;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Главный контейнер */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Информационные блоки */
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 25px;
+        }
+
+        .card h2 {
+            color: #2e7d32;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #e8f5e9;
+            padding-bottom: 6px;
+        }
+
+        /* Галерея с фото */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .gallery-item {
+            background: #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-item p {
+            padding: 8px;
+            font-size: 0.9rem;
+            background: #fff;
+            color: #555;
+        }
+
+        /* Подвал */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка проекта -->
+    <header>
+        <h1>Проблема мусора в Бекабаде</h1>
+        <p>Проект-презентация по экологии и чистоте родного города</p>
+    </header>
+
+    <!-- Авторы -->
+    <div class="authors">
+        Авторы проекта: Жарков Владимир и Жарков Фёдор
+    </div>
+
+    <div class="container">
+
+        <!-- Раздел 1: Проблема в городе -->
+        <section class="card">
+            <h2>Мусор в городе Бекабад</h2>
+            <p>
+                В последние годы проблема накопления отходов в Бекабаде становится все более актуальной.
+                Бытовые отходы, пластик и строительный мусор часто оказываются на улицах и пустырях,
+                что ухудшает экологическую обстановку и внешний вид города.
+            </p>
+        </section>
+
+        <!-- Раздел 2: Проблема в махалле -->
+        <section class="card">
+            <h2>Ситуация в нашей махалле</h2>
+            <p>
+                В махаллях главными причинами скопления мусора являются несвоевременный вывоз отходов,
+                нехватка контейнерных площадок и стихийные свалки в частном секторе.
+                Для решения этой проблемы важно привлекать самих жителей к соблюдению чистоты.
+            </p>
+        </section>
+
+        <!-- Раздел 3: Фотогалерея -->
+        <section class="card">
+            <h2>Фотоматериалы</h2>
+            <p>Наглядные примеры и фотографии мест скопления мусора:</p>
+            
+            <div class="gallery">
+                <!-- Фото 1 -->
+                <div class="gallery-item">
+                    <img src="photo1.jpg" alt="Фото 1">
+                    <p>Фото 1: Проблема у дорог</p>
+                </div>
+                <!-- Фото 2 -->
+                <div class="gallery-item">
+                    <img src="photo2.jpg" alt="Фото 2">
+                    <p>Фото 2: Скопление бытовых отходов</p>
+                </div>
+                <!-- Фото 3 -->
+                <div class="gallery-item">
+                    <img src="photo3.jpg" alt="Фото 3">
+                    <p>Фото 3: Ситуация в махалле</p>
+                </div>
+                <!-- Фото 4 -->
+                <div class="gallery-item">
+                    <img src="photo4.jpg" alt="Фото 4">
+                    <p>Фото 4: Уборка и субботники</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел 4: Варианты решения -->
+        <section class="card">
+            <h2>Предлагаемые решения</h2>
+            <ul>
+                <li>Регулярный и своевременный вывоз мусора из махалли.</li>
+                <li>Установка дополнительных мусорных баков и контейнеров.</li>
+                <li>Проведение субботников с участием жителей и школьников.</li>
+                <li>Повышение экологической культуры населения.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>© 2026 Бекабад | Школьный экологический проект</p>
+    </footer>
+
+</body>
+</html>
